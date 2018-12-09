@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Copy of WalkBoston - Arlington</name>
+    <description><![CDATA[At first glance Arlington seems to be one more pleasant suburb of Boston—a good place to live without much for visitors to see.  Not so.  The town paid a pivotal role in the American Revolution, as this stroll down the popular new Minuteman Rail Trail and through the heart of town will reveal to you.  Along the way you’ll also discover its appealing restaurants, retail shops, and pond-studded green space.<br><br>Arlington, once known as Menotomy (its Native American name), stepped into American history on April 19, 1775.  On that date the townsfolk watched the main British force pass on their route to Concord.  When lightly protected supply trains followed, Arlingtonians attacked.  Their rewards were the first British prisoners and stores captured in the Revolution.  More than half of the casualties that day took place on this portion of the historic battle road.<br><br>Several buildings dating from the Revolutionary War period remain—surrounded now by an active, lively urban community.]]></description>
+    <Style id="icon-22-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-22-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-22">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-25-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/25-bus.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-25-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/25-bus.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-25">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-25-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-25-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF0000-5000-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FF0000-5000-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FF0000-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-FF9900-3000-51-normal">
+      <LineStyle>
+        <color>ff0099ff</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>330099ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-FF9900-3000-51-highlight">
+      <LineStyle>
+        <color>ff0099ff</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>330099ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-FF9900-3000-51">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FF9900-3000-51-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FF9900-3000-51-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Walking Route</name>
+        <description><![CDATA[Getting there: Take the MBTA Red Line to Alewife Station or take the No. 77 bus from Harvard Square Red Line Station to Arlington Center<br>Getting back: Walk to the MBTA Red Line Alewife Station or take the No. 77 bus from Arlington Center to the Red Line at Harvard Square Station.<br><br>Time: 4 hours<br>Distance: 5 miles<br>Difficulty: Easy to moderate<br><br>Accessibility: Fully wheelchair accessible<br>Restrooms: Public library; town hall<br><br>Kathy Bagdonas and Jim Egan are members of WalkBoston.]]></description>
+        <styleUrl>#line-FF0000-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -71.141029,42.396203,0
+            -71.141013,42.396298,0
+            -71.141061,42.396385,0
+            -71.141174,42.396496,0
+            -71.141174,42.396618,0
+            -71.141217,42.396718,0
+            -71.141324,42.396797,0
+            -71.141453,42.396805,0
+            -71.142968,42.396432,0
+            -71.143062,42.396521,0
+            -71.143067,42.396654,0
+            -71.143054,42.396743,0
+            -71.143073,42.396943,0
+            -71.143145,42.397106,0
+            -71.143242,42.397227,0
+            -71.143352,42.397339,0
+            -71.14347,42.397577,0
+            -71.143486,42.397708,0
+            -71.143668,42.397938,0
+            -71.143786,42.398029,0
+            -71.143845,42.398136,0
+            -71.144028,42.398548,0
+            -71.144226,42.39898,0
+            -71.144328,42.399075,0
+            -71.144543,42.399277,0
+            -71.144747,42.399534,0
+            -71.144816,42.399653,0
+            -71.144859,42.3998,0
+            -71.144832,42.399895,0
+            -71.144747,42.399962,0
+            -71.144639,42.400089,0
+            -71.144607,42.400192,0
+            -71.144848,42.400679,0
+            -71.144913,42.40073,0
+            -71.145031,42.400798,0
+            -71.145101,42.400881,0
+            -71.145422,42.401404,0
+            -71.145846,42.402267,0
+            -71.146318,42.403222,0
+            -71.146817,42.404264,0
+            -71.146962,42.404529,0
+            -71.147289,42.405108,0
+            -71.14752,42.405599,0
+            -71.147826,42.406233,0
+            -71.14818,42.406946,0
+            -71.148362,42.407678,0
+            -71.148614,42.408708,0
+            -71.148738,42.40912,0
+            -71.148802,42.409318,0
+            -71.148974,42.409627,0
+            -71.149258,42.41011,0
+            -71.14944,42.410368,0
+            -71.149821,42.410815,0
+            -71.149982,42.41099,0
+            -71.150562,42.411477,0
+            -71.150835,42.411687,0
+            -71.151189,42.412047,0
+            -71.151382,42.412281,0
+            -71.151656,42.412649,0
+            -71.151844,42.412982,0
+            -71.151962,42.413279,0
+            -71.152053,42.413501,0
+            -71.152225,42.41417,0
+            -71.152407,42.414748,0
+            -71.152385,42.414871,0
+            -71.152292,42.41496,0
+            -71.152294,42.415,0
+            -71.152697,42.415156,0
+            -71.153193,42.415326,0
+            -71.152839,42.41551,0
+            -71.152828,42.415586,0
+            -71.152538,42.415772,0
+            -71.15219,42.41598,0
+            -71.151994,42.41611,0
+            -71.152211,42.416241,0
+            -71.152211,42.416301,0
+            -71.152273,42.416352,0
+            -71.152174,42.416427,0
+            -71.152375,42.416572,0
+            -71.152503,42.416645,0
+            -71.152823,42.416744,0
+            -71.153268,42.416885,0
+            -71.153027,42.417433,0
+            -71.152951,42.417633,0
+            -71.152903,42.417847,0
+            -71.153035,42.417845,0
+            -71.153987,42.417772,0
+            -71.154027,42.41776,0
+            -71.154156,42.417786,0
+            -71.154298,42.41736,0
+            -71.154435,42.41697,0
+            -71.15466,42.416295,0
+            -71.154735,42.416089,0
+            -71.15477,42.416079,0
+            -71.155416,42.416178,0
+            -71.155695,42.416223,0
+            -71.156712,42.41637,0
+            -71.157836,42.41653,0
+            -71.158066,42.41657,0
+            -71.158077,42.41634,0
+            -71.158064,42.416279,0
+            -71.158082,42.416225,0
+            -71.158241,42.416002,0
+            -71.158573,42.415566,0
+            -71.158858,42.415186,0
+            -71.159185,42.414774,0
+            -71.159316,42.414629,0
+            -71.15966,42.414297,0
+            -71.160008,42.413954,0
+            -71.160209,42.413758,0
+            -71.160346,42.413671,0
+            -71.160475,42.413584,0
+            -71.160582,42.413501,0
+            -71.160792,42.413301,0
+            -71.160931,42.413174,0
+            -71.161049,42.413047,0
+            -71.161148,42.41295,0
+            -71.161247,42.412853,0
+            -71.161296,42.41279,0
+            -71.161352,42.412701,0
+            -71.161435,42.412508,0
+            -71.161556,42.412223,0
+            -71.161628,42.412073,0
+            -71.161674,42.411994,0
+            -71.161671,42.411958,0
+            -71.161803,42.411764,0
+            -71.161905,42.411619,0
+            -71.162004,42.411536,0
+            -71.162049,42.411506,0
+            -71.161948,42.411431,0
+            -71.16158,42.411128,0
+            -71.161379,42.410991,0
+            -71.161006,42.41078,0
+            -71.160671,42.410593,0
+            -71.159931,42.41018,0
+            -71.159391,42.409873,0
+            -71.158791,42.409534,0
+            -71.158616,42.409712,0
+            -71.158509,42.409841,0
+            -71.158402,42.409966,0
+            -71.158329,42.410144,0
+            -71.158294,42.410344,0
+            -71.158281,42.41071,0
+            -71.158289,42.410896,0
+            -71.158308,42.411419,0
+            -71.158294,42.41155,0
+            -71.158251,42.411572,0
+            -71.158217,42.411691,0
+            -71.158166,42.411801,0
+            -71.158056,42.411944,0
+            -71.157935,42.412091,0
+            -71.157828,42.412192,0
+            -71.157707,42.412273,0
+            -71.157294,42.412516,0
+            -71.156991,42.412695,0
+            -71.156623,42.41291,0
+            -71.156417,42.413067,0
+            -71.156259,42.413184,0
+            -71.155752,42.413582,0
+            -71.155591,42.413459,0
+            -71.154928,42.412859,0
+            -71.154531,42.412475,0
+            -71.154622,42.412423,0
+            -71.154065,42.411885,0
+            -71.153882,42.411718,0
+            -71.153837,42.411661,0
+            -71.153764,42.411568,0
+            -71.153676,42.411498,0
+            -71.153544,42.411437,0
+            -71.153381,42.411427,0
+            -71.153252,42.411451,0
+            -71.153,42.411603,0
+            -71.152423,42.411926,0
+            -71.152372,42.41195,0
+            -71.152174,42.411803,0
+            -71.152018,42.411809,0
+            -71.151535,42.411853,0
+            -71.151377,42.411875,0
+            -71.151264,42.411867,0
+            -71.15117,42.411801,0
+            -71.151079,42.411653,0
+            -71.150841,42.411441,0
+            -71.150749,42.411397,0
+            -71.15065,42.411405,0
+            -71.150562,42.411477,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Minuteman Rail Trail</name>
+        <description><![CDATA[This is the start of a 10.5 mile asphalt path used for bicycling, walking, jogging, and in-line skating.  Dedicated in 1992 as the country's 500th rail-trail, it roughly parallels Paul Revere's famous route through colonial Arlington and Lexington to warn colonists that "the British are coming!"]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -71.14303,42.396611,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spy Pond</name>
+        <description><![CDATA[A 15-minute walk from Alewife Station, this pond was left by a glacier long ago.  The Reverend Cotton Mather once came here to fish and, like many other amateur fishermen, fell into the pond--"the boat being tickelish."  Frightened British soldiers, pursued by Minutemen on April 19, 1775, jumped from supply train wagons and ran to the pond, where they threw their guns into the water, trying to keep the weapons from falling into the hands of the rebellious Minutemen.  In the nineteenth century the pond became known for its rice, each winter some 250 men harvested up to 60,000 tons for shipment all over the world.  The industry continued until 1930.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -71.152396,42.409746,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Central Fire Station</name>
+        <description>This unusual octagonal Neo-Georgian building was constructed in 1926.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -71.149735,42.413817,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wayside Inn</name>
+        <description>This house was built before 1750 and lies in what is now the Broadway Historic District.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -71.149237,42.413267,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Avon Place Historic District</name>
+        <description>This area is a small enclave of late-nineteenth-century buildings.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -71.150063,42.412986,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jefferson Cutter or Whittemore House</name>
+        <description>This house at 1 Whittemore Place was built before 1729.  Inside the building is the Cyrus Dallin Art Museum, celebrating a local sculptor who became internationally famous.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -71.152353,42.41571,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Uncle Sam Monument</name>
+        <description><![CDATA[Samuel Wilson, born in Arlington in 1766, founded a large meatpacking business and became inspector of provisions for soldiers from New York during the War of 1812.  The federal monogram US was stamped on casks of beef and pork that were recognized as his products.  The legend grew among soldiers that the letters stood for "Uncle Sam Wilson."  The story survived, and Uncle Sam was later adopted for army recruiting campaigns.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -71.153021,42.415849,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mill Brook</name>
+        <description>Behind the Uncle Sam Monument and along the rail trail, intersecting here on its path to Mystic Lake is Mill Brook.  The waterway powered seven different Arlington mills for almost 250 years.  The last one operating is the Schwamb Mill, turning out picture frames at a location farther out Massachusetts Avenue.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -71.156618,42.417964,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Russell Street Historic District</name>
+        <description>This area has examples of the modest homes occupied by workers in nearby mills.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -71.153378,42.417877,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arlington Center</name>
+        <description>MBTA bus line no. 77 available here to/from Harvard Square Red Line Station.</description>
+        <styleUrl>#icon-25</styleUrl>
+        <Point>
+          <coordinates>
+            -71.156629,42.416257,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arlington Civic Center</name>
+        <description>This marvelous civic center is composed of public buildings and gardens, many of which honor the Robbins family.  Its members where for generations among the leading citizens of Arlington.  Their fortune was built on farming and distributing produce and meat in Boston.</description>
+        <styleUrl>#poly-FF9900-3000-51</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -71.155196,42.414067,0
+                -71.155143,42.414067,0
+                -71.15355,42.415358,0
+                -71.153598,42.415505,0
+                -71.154719,42.415845,0
+                -71.156811,42.416146,0
+                -71.157299,42.415029,0
+                -71.155196,42.414067,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Robbins Library</name>
+        <description>The 1892 Robbins Library is found at 700 Massachusetts Avenue.  The grand vaulted ceiling of the interior reading hall, glistening with hints of gold, is a civic monument.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1551,42.415687,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Whitemore-Robbins House</name>
+        <description>Behind the library is the Whittemore-Robbins House, the most imposing house in Arlington when it was built in c. 1800.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -71.155314,42.414938,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Old Burying Ground</name>
+        <description>First used in 1730, in 1775 both Minutemen and British soldiers were buried here.  In front of the cemetery stands the Unitarian First Parish Meetinghouse.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -71.15451,42.41499,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Winfield Robbins Memorial Garden</name>
+        <description><![CDATA[At the center of this 1913 garden is Dallin's 1911 Menotomy Indian Hunter.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -71.155851,42.415481,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Robbins Memorial Town Hall</name>
+        <description>The imposing 1913 Robbins Memorial Town Hall, 730 Massachusetts Avenue, features an ornate open cupola surmounted by a pineapple, the traditional symbol of hospitality.  Inside is a large meeting hall paneled in chestnut, with an elaborate carved and gilded coffered ceiling.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -71.15635,42.415893,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Robbins Memorial Flagstaff</name>
+        <description>Next to the town hall is the 1913 Robbins Memorial Flagstaff, also sculpted by Cyrus Dallin.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -71.156709,42.416059,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Greek Orthodox Church</name>
+        <description>The notable Victorian-era Greek Orthodox Church is named for St. Athanasius the Great.  Some say it is the finest architectural monument in town.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -71.156983,42.416594,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jason Russell House</name>
+        <description>This colonial building dates to around 1740, with later additions.  On April 19, 1775, it was the site of bloody fighting and of the deaths of Jason Russell and eleven Minutemen.  Attached to the house is the charming Smith Museum, showcasing the history of Arlington.  Both the house and museum are operated by the Arlington Historical Society, and are open April through October.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -71.158581,42.416116,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Menotomy Rocks Park</name>
+        <description><![CDATA[Near the top of the hill is the Menotomy Rocks Park, its name a reference to Arlington's former Native American nomenclature.  With its pond, it is the largest town recreation area.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -71.165196,42.410902,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pleasant Street Historic District</name>
+        <description>Homes along Spy Pond and the streets leading from is have been protected for their diversity and architectural interest.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -71.157975,42.410023,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spring Valley Road</name>
+        <description>At the foot of this street is a view over Spy Pond toward the downtown Boston skyline.  At this location in 1810 the townsfolk constructed a powder house, designed to allow any potential explosion to spend itself harmlessly over the pond.  The location was taken over in 1870 for the Arlington Boat Club, a popular social and athletic center.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -71.156784,42.410538,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
